@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación de Desarrollo Web</title>
+    <!-- Iconos de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Enlace a tu hoja de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+<!-- Para instalar a pantalla -->
+<link rel="manifest" href="/instalacion/manifest.json">
+</head>
+<body>
+    <!-- Botón para cambiar de tema -->
+    <div class="theme-toggle">
+        <button id="themeBtn"><i class="fas fa-moon"></i></button>
+    </div>
+
+    <!-- Botón de pantalla completa -->
+    <div class="fullscreen-toggle">
+        <button id="fullscreenBtn"><i class="fas fa-expand"></i></button>
+    </div>
+    
+    <!-- Barra de progreso -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Contenedor principal de la presentación -->
+    <div class="presentacion-wrapper">
+        <div class="presentacion">
+            
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1 class="title-animation">Desarrollo Web</h1>
+                    <div class="content-box">
+                        <h2>Introducción a la Creación de Sitios Web</h2>
+                       <!-- La imagen aquí permanece arriba -->
+                       <img class="slide-image" src="imag1/1.png" alt="Imagen introductoria de Desarrollo Web">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>¿Qué es el Desarrollo Web?</h1>
+                    <div class="content-box">
+                        <ul class="slide-list">
+                            <li style="animation-delay: 0.6s;"><strong>Definición:</strong> Es el proceso de construir y mantener sitios web para Internet o una intranet.</li>
+                            <li style="animation-delay: 0.8s;"><strong>Frontend vs. Backend:</strong> Frontend es lo que el usuario ve, Backend es el motor que lo hace funcionar.</li>
+                        </ul>
+                        <!-- La imagen aquí va debajo del texto -->
+                        <img class="slide-image" src="imag1/2.png" alt="Código y café">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Tecnologías Frontend</h1>
+                    <div class="content-box">
+                        <ul class="slide-list">
+                            <li style="animation-delay: 0.6s;"><strong>HTML, CSS y JavaScript:</strong> Los tres pilares de la web. Estructura, estilo e interactividad.</li>
+                            <li style="animation-delay: 0.8s;"><strong>Frameworks Populares:</strong> Herramientas como React, Angular y Vue.js que agilizan el desarrollo.</li>
+                        </ul>
+                        <img class="slide-image" src="imag1/3.png" alt="Logos de HTML, CSS, JS">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Tecnologías Backend</h1>
+                    <div class="content-box">
+                        <ul class="slide-list">
+                            <li style="animation-delay: 0.6s;"><strong>Lenguajes:</strong> PHP, Python, Ruby y Node.js son algunas de las opciones más populares.</li>
+                            <li style="animation-delay: 0.8s;"><strong>Bases de Datos:</strong> SQL (estructuradas) y NoSQL (no estructuradas) para almacenar la información.</li>
+                        </ul>
+                        <img class="slide-image" src="imag1/4.png" alt="Centro de datos">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Herramientas y Entornos</h1>
+                    <div class="content-box">
+                        <ul class="slide-list">
+                            <li style="animation-delay: 0.6s;"><strong>Editores de Código:</strong> VS Code, Sublime Text, etc., son nuestro taller de trabajo.</li>
+                            <li style="animation-delay: 0.8s;"><strong>Control de Versiones:</strong> Git y GitHub nos permiten colaborar y mantener un historial de cambios.</li>
+                        </ul>
+                        <img class="slide-image" src="imag1/5.png" alt="Escritorio de desarrollador">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Diseño Responsivo</h1>
+                    <div class="content-box">
+                        <ul class="slide-list">
+                            <li style="animation-delay: 0.6s;"><strong>Importancia:</strong> Asegura que el sitio se vea y funcione bien en cualquier dispositivo (móvil, tablet, escritorio).</li>
+                            <li style="animation-delay: 0.8s;"><strong>Técnicas y Frameworks:</strong> Bootstrap, Flexbox y Grid son esenciales para lograrlo.</li>
+                        </ul>
+                        <img class="slide-image" src="imag1/6.png" alt="Web en múltiples dispositivos">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Pruebas y Despliegue</h1>
+                    <div class="content-box">
+                        <ul class="slide-list">
+                            <li style="animation-delay: 0.6s;"><strong>Pruebas:</strong> Verificamos que todo funcione correctamente antes del lanzamiento (pruebas unitarias, de integración).</li>
+                            <li style="animation-delay: 0.8s;"><strong>Despliegue:</strong> Es el proceso de poner la web online usando FTP o servicios en la nube (Heroku, AWS).</li>
+                        </ul>
+                        <img class="slide-image" src="imag1/7.png" alt="Cohete despegando">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Tendencias Futuras</h1>
+                    <div class="content-box">
+                        <ul class="slide-list">
+                            <li style="animation-delay: 0.6s;"><strong>Progressive Web Apps (PWAs):</strong> Webs que se comportan como aplicaciones nativas.</li>
+                            <li style="animation-delay: 0.8s;"><strong>Inteligencia Artificial:</strong> Integración de IA para chatbots, personalización y más.</li>
+                        </ul>
+                        <img class="slide-image" src="imag1/8.png" alt="Cerebro de IA">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Conclusiones</h1>
+                    <div class="content-box">
+                        <ul class="slide-list">
+                            <li style="animation-delay: 0.6s;">El desarrollo web es un campo vasto que combina lógica y creatividad.</li>
+                            <li style="animation-delay: 0.8s;">Es una habilidad fundamental y con alta demanda en el mundo digital actual.</li>
+                        </ul>
+                        <img class="slide-image" src="imag1/9.png" alt="Teclado y código">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>¡Muchas Gracias!</h1>
+                    <h2>Aquí les dejo un pequeño video resumen</h2>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/i9M7gdzlA7I" title="¿Qué es el desarrollo web?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Flechas de navegación -->
+    <div class="nav-arrows">
+        <button class="nav-arrow left" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+        <button class="nav-arrow right" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <script src="/instalacion/pwa.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
